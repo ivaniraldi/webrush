@@ -7,7 +7,7 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
       viewBox="0 0 200 50"
       width="200"
       height="50"
-      aria-label="WebRush Logo"
+      aria-label="WebRush Brasil Logo"
       {...props}
     >
       <defs>
@@ -20,11 +20,11 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
         x="10"
         y="35"
         fontFamily="'Poppins', sans-serif"
-        fontSize="32"
+        fontSize="24"
         fontWeight="700"
         fill="url(#logo-gradient)"
       >
-        WebRush
+        WebRush Brasil
       </text>
     </svg>
   );

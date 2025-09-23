@@ -1,23 +1,29 @@
 import Link from "next/link";
 import Logo from "@/components/logo";
 import { Separator } from "@/components/ui/separator";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-gray-900 text-gray-400">
+    <footer id="contact" className="bg-[#111827] text-gray-400">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
-          <div className="flex flex-col items-center md:items-start">
-            <Logo className="h-8 w-auto text-white mb-4" />
-            <p className="max-w-xs text-sm">
-              Agilidade e profissionalismo para seu negócio decolar no Brasil.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold font-headline text-white mb-4">Contato</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="mailto:contato@webrush.com.br" className="hover:text-primary transition-colors">contato@webrush.com.br</a></li>
-              <li><a href="tel:+5511999998888" className="hover:text-primary transition-colors">+55 (11) 99999-8888</a></li>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+          <div className="flex flex-col items-center md:items-start space-y-4">
+            <Logo className="h-8 w-auto text-white" />
+            <p className="text-sm">Um produto de SykoTech LTDA.</p>
+            <ul className="space-y-2 text-sm text-left">
+              <li className="flex items-center gap-2 justify-center md:justify-start">
+                <Mail className="h-4 w-4" />
+                <a href="mailto:contact@sykotech.com" className="hover:text-primary transition-colors">contact@sykotech.com</a>
+              </li>
+              <li className="flex items-center gap-2 justify-center md:justify-start">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+5548992084572" className="hover:text-primary transition-colors">+55 (48) 99208-4572</a>
+              </li>
+              <li className="flex items-center gap-2 justify-center md:justify-start">
+                <MapPin className="h-4 w-4" />
+                <span>Santa Catarina, Brasil</span>
+              </li>
             </ul>
           </div>
           <div>
@@ -34,6 +40,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="#" className="hover:text-primary transition-colors">Termos de Serviço</Link></li>
               <li><Link href="#" className="hover:text-primary transition-colors">Política de Privacidade</Link></li>
+              <li><a href="https://www.sykotech.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Site Empresarial</a></li>
             </ul>
           </div>
         </div>
@@ -41,7 +48,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <Separator className="bg-gray-700" />
         <div className="py-8 text-center text-sm text-gray-500">
-          <p>&copy; 2025 SykoTech LTDA. Todos os direitos reservados.</p>
+          <p>&copy; 2025 SykoTech LTDA | CNPJ: 62.249.967/0001-69 | Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

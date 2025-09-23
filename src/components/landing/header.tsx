@@ -22,7 +22,6 @@ export default function Header() {
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Logo className="h-6 w-auto" />
-          <span className="font-bold font-headline text-lg">WebRush</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -56,7 +55,6 @@ export default function Header() {
                 <div className="flex items-center justify-between pb-4 border-b">
                    <Link href="/" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
                     <Logo className="h-6 w-auto" />
-                    <span className="font-bold font-headline text-lg">WebRush</span>
                   </Link>
                   <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
                       <X className="h-6 w-6" />
