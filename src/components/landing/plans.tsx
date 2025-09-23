@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle2, Globe, Mail, ShoppingCart, DraftingCompass, Star } from "lucide-react";
+import { CheckCircle2, Star } from "lucide-react";
 
 const plans = [
   {
@@ -59,6 +59,12 @@ const plans = [
 ]
 
 export default function Plans() {
+  const whatsappNumber = "5548992084572";
+  const getWhatsappLink = (planName: string) => {
+    const message = encodeURIComponent(`Olá! Tenho interesse no plano ${planName}.`);
+    return `https://wa.me/${whatsappNumber}?text=${message}`;
+  }
+
   return (
     <section id="planos" className="py-20 md:py-32">
       <div className="container mx-auto px-4">
@@ -105,7 +111,7 @@ export default function Plans() {
               </CardContent>
               <CardFooter>
                 <Button asChild className="w-full" variant={plan.popular ? "default" : "outline"}>
-                  <Link href="#contact">{plan.cta}</Link>
+                  <Link href={getWhatsappLink(plan.name)} target="_blank">{plan.cta}</Link>
                 </Button>
               </CardFooter>
             </Card>

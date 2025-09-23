@@ -59,6 +59,9 @@
   body {
     @apply bg-background text-foreground;
     background-color: #12121A;
-    background-image: radial-gradient(ellipse 80% 50% at 50% -20%,hsla(258, 87%, 66%, 0.2), hsla(0,0%,100%,0));
+    background-image:
+      radial-gradient(at 20% 20%, hsla(258, 87%, 66%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 80% 10%, hsla(260, 90%, 76%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 50% 70%, hsla(217, 33%, 18%, 0.2) 0px, transparent 50%);
   }
 }

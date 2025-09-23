@@ -4,6 +4,7 @@ import Plans from '@/components/landing/plans';
 import HowItWorks from '@/components/landing/how-it-works';
 import Faq from '@/components/landing/faq';
 import Footer from '@/components/landing/footer';
+import FloatingWhatsapp from '@/components/landing/floating-whatsapp';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Faq />
       </main>
       <Footer />
+      <FloatingWhatsapp />
     </div>
   );
 }

@@ -38,8 +38,8 @@ export default function Footer() {
           <div>
             <h3 className="font-bold font-headline text-white mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="hover:text-primary transition-colors">Termos de Serviço</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Política de Privacidade</Link></li>
+              <li><Link href="/termos-de-servico" className="hover:text-primary transition-colors">Termos de Serviço</Link></li>
+              <li><Link href="/politica-de-privacidade" className="hover:text-primary transition-colors">Política de Privacidade</Link></li>
               <li><a href="https://www.sykotech.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Site Empresarial</a></li>
             </ul>
           </div>
