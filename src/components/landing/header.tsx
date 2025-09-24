@@ -8,7 +8,6 @@ import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/s
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#inicio", label: "Início" },
   { href: "#planos", label: "Planos" },
   { href: "#como-funciona", label: "Como Funciona" },
   { href: "#faq", label: "Dúvidas Frequentes" },
@@ -35,12 +34,6 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-
-        <div className="hidden md:flex items-center gap-4">
-          <Button asChild>
-            <Link href="#planos">Comece Agora</Link>
-          </Button>
-        </div>
 
         <div className="md:hidden">
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
@@ -74,9 +67,6 @@ export default function Header() {
                     </Link>
                   ))}
                 </nav>
-                <Button asChild className="w-full mt-auto">
-                  <Link href="#planos" onClick={() => setIsMenuOpen(false)}>Comece Agora</Link>
-                </Button>
               </div>
             </SheetContent>
           </Sheet>
