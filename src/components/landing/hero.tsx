@@ -17,7 +17,7 @@ export default function Hero() {
     <section className="relative overflow-hidden py-24 md:py-32">
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tight mb-6 max-w-4xl mx-auto">
-          Seu site profissional no ar em tempo recorde.
+          Seu <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">site profissional</span> no ar em tempo recorde.
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
           Crie seu site com domínio incluso a partir de R$69. Rápido, seguro e com a agilidade que seu negócio precisa para o mercado global.
