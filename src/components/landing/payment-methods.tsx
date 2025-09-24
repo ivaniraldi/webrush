@@ -12,11 +12,11 @@ export default function PaymentMethods() {
               <span className="text-xs font-medium">Pix</span>
             </div>
             <div className="flex items-center gap-2" title="Transferência Bancária">
-              <Landmark className="h-6 w-6" />
+              <Landmark className="h-6 w-6 text-yellow-400" />
               <span className="text-xs font-medium">Transferência</span>
             </div>
             <div className="flex items-center gap-2" title="Cartão de Crédito e Débito">
-              <CreditCard className="h-6 w-6" />
+              <CreditCard className="h-6 w-6 text-blue-400" />
               <span className="text-xs font-medium">Cartão</span>
             </div>
           </div>
