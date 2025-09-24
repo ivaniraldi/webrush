@@ -6,59 +6,60 @@ import { CheckCircle2, Star } from "lucide-react";
 const plans = [
   {
     name: "Rush Presença",
-    idealFor: "Influenciadores, autônomos e freelancers que precisam de um \"cartão de visitas digital\".",
-    price: "49",
+    idealFor: "Influenciadores, autônomos, freelancers e profissionais que precisam de um \"cartão de visitas digital\" ou uma página de \"link na bio\" profissional e impactante.",
+    price: "69",
     pricePeriod: "Pagamento único",
     priceDescription: "Válido para o primeiro ano",
     features: [
-      "Domínio .shop grátis (1º ano)",
-      "Site de Página Única (One-Page)",
-      "Hospedagem de Alta Performance",
-      "Certificado de Segurança SSL",
-      "Design 100% Responsivo",
-      "Suporte Técnico Inicial (45 dias)",
-      "Entrega em até 3 dias úteis",
+      "Domínio .shop grátis: Um endereço profissional na web (válido para o 1º ano).",
+      "Site de Página Única (One-Page): Baseado em um de nossos 5 templates modernos à sua escolha.",
+      "Hospedagem de Alta Performance: Seu site carregará rapidamente em qualquer lugar do mundo.",
+      "Certificado de Segurança SSL: O \"cadeado verde\" que transmite confiança aos seus visitantes.",
+      "Design 100% Responsivo: Perfeita visualização em celulares, tablets e computadores.",
+      "Suporte Técnico Inicial: Ajuda e orientação gratuitas por 45 dias para garantir que tudo esteja perfeito.",
+      "Entrega Expressa: Seu site no ar em até 3 dias úteis após o envio do material.",
     ],
-    transparency: "Renovação (domínio .shop + hospedagem): R$ 159/ano. Suporte contínuo opcional: R$ 14,99/mês.",
-    cta: "Começar com R$49",
+    transparency: "A renovação do plano (incluindo domínio .shop e hospedagem) é de R$ 159/ano a partir do segundo ano. O suporte técnico contínuo após 45 dias é opcional, por R$ 14,99/mês.",
+    cta: "Começar com R$69",
     popular: false,
-    priceCta: "49",
+    priceCta: "69",
   },
   {
     name: "Rush Contato",
-    idealFor: "Pequenas empresas e prestadores de serviço que precisam gerar credibilidade e capturar clientes.",
+    idealFor: "Pequenas empresas, consultórios, advogados, contadores e prestadores de serviço que precisam de um site institucional para gerar credibilidade, explicar seus serviços e capturar clientes.",
     price: "249",
     pricePeriod: "/ano",
     priceDescription: "",
     features: [
-      "Domínio .com.br ou .com grátis (1º ano)",
-      "Site Institucional de até 3 páginas",
-      "Formulário de Contato Profissional",
-      "Botão Flutuante de WhatsApp",
-      "Mapa de Localização (Google Maps)",
-      "Suporte Contínuo (e-mail)",
-      "Até 2 pequenas atualizações/mês",
-      "Entrega em até 7 dias úteis",
+      "Domínio .com.br ou .com grátis: O endereço mais tradicional para negócios no Brasil (válido para o 1º ano).",
+      "Site Institucional de até 3 páginas: Estrutura clássica (ex: Início, Sobre Nós, Serviços, Contato).",
+      "Formulário de Contato Profissional: Receba os pedidos de orçamento e mensagens direto no seu e-mail.",
+      "Botão Flutuante de WhatsApp: Facilite o contato imediato dos seus clientes.",
+      "Mapa de Localização (Google Maps): Mostre onde sua empresa está localizada.",
+      "Hospedagem de Alta Performance e Certificado SSL.",
+      "Suporte Contínuo: Suporte técnico via e-mail durante toda a vigência do plano.",
+      "Pequenas Atualizações Inclusas: Até 2 alterações de texto ou imagem por mês.",
     ],
-    transparency: "E-mail profissional é um serviço adicional.",
+    transparency: "A renovação do plano é de R$ 249/ano. A criação de e-mail profissional (ex: contato@seusite.com.br) é um serviço adicional.",
     cta: "Escolher Plano",
     popular: true,
     priceCta: "249",
   },
   {
     name: "Rush Loja Start",
-    idealFor: "Empreendedores que querem começar a vender online de forma rápida, segura e sem complexidade.",
+    idealFor: "Empreendedores e pequenas empresas que querem começar a vender produtos (físicos ou digitais) online de forma rápida, segura e sem a complexidade de grandes plataformas.",
     price: "99",
     pricePeriod: "/mês",
     priceDescription: "ou R$ 990/ano (2 meses de desconto)",
     features: [
-      "Todas as features do Plano RUSH CONTATO",
-      "Loja Virtual com até 20 produtos",
-      "Integração com Mercado Pago e PagSeguro",
-      "Gerenciamento de Pedidos Simplificado",
-      "Cálculo de Frete Básico",
-      "E-commerce Rápido (Headless)",
-      "Suporte Prioritário (E-mail e WhatsApp)",
+      "Inclui todas as funcionalidades do Plano RUSH CONTATO, mais:",
+      "Loja Virtual Profissional: Integrada perfeitamente ao seu site institucional.",
+      "Cadastro de até 20 produtos: Com fotos, descrição, preço e variações (cor, tamanho, etc.).",
+      "Integração com Pagamentos Brasileiros: Venda via Pix, Boleto e Cartão de Crédito através dos melhores e mais seguros gateways (Mercado Pago, PagSeguro).",
+      "Gerenciamento de Pedidos Simplificado: Um painel fácil de usar para controlar suas vendas.",
+      "Cálculo de Frete Básico.",
+      "Suporte Prioritário: Ajuda via e-mail e WhatsApp para garantir que sua loja esteja sempre vendendo.",
+      "Diferencial deste plano: Usamos tecnologia de e-commerce \"headless\", que torna sua loja extremamente rápida, melhorando a experiência de compra do cliente e aumentando suas chances de venda.",
     ],
     transparency: "",
     cta: "Escolher Plano",
@@ -67,20 +68,20 @@ const plans = [
   },
   {
     name: "Rush Sob Medida",
-    idealFor: "Startups e empresas com necessidades específicas, projetos complexos ou e-commerces de grande porte.",
+    idealFor: "Startups, empresas com necessidades específicas, projetos complexos, e-commerces de grande porte ou quem precisa de integrações e funcionalidades que vão além dos planos padrão.",
     price: "Consulte",
     pricePeriod: "",
     priceDescription: "",
     features: [
-      "Desenvolvimento de Web Apps e Sistemas",
-      "Criação de SaaS (Software como Serviço)",
-      "Integrações via API (ERP, CRM, etc.)",
-      "Áreas de Membros com login",
-      "Desenvolvimento de Marketplaces",
-      "Consultoria de tecnologia",
-      "Equipe de desenvolvimento dedicada",
+      "Desenvolvimento de Web Apps e Sistemas complexos.",
+      "Criação do seu próprio SaaS (Software como Serviço).",
+      "Integrações via API com seus sistemas de ERP, CRM, etc.",
+      "Áreas de Membros e portais de cliente com login e senha.",
+      "Desenvolvimento de Marketplaces.",
+      "Consultoria de tecnologia e arquitetura de sistemas.",
+      "Alocação de uma equipe de desenvolvimento dedicada ao seu projeto.",
     ],
-    transparency: "O processo começa com uma reunião de diagnóstico para entendermos seus objetivos.",
+    transparency: "Como funciona: O processo começa com uma reunião de diagnóstico para entendermos profundamente seus objetivos e desenharmos uma solução tecnológica exclusiva para o seu negócio. Entre em contato para agendar uma conversa.",
     cta: "Fale Conosco",
     popular: false,
   },
@@ -89,7 +90,7 @@ const plans = [
 export default function Plans() {
   const whatsappNumber = "5548992084572";
   const getWhatsappLink = (planName: string) => {
-    const message = encodeURIComponent(`Olá, SykoTech! Gostaria de saber mais sobre o plano ${planName} da WebRush. Poderiam me ajudar?`);
+    const message = encodeURIComponent(`Olá, SykoTech! Tenho interesse no plano ${planName} da WebRush e gostaria de mais informações.`);
     return `https://wa.me/${whatsappNumber}?text=${message}`;
   }
 
@@ -114,7 +115,7 @@ export default function Plans() {
               )}
               <CardHeader className="pb-4">
                 <CardTitle className="font-headline text-2xl">{plan.name}</CardTitle>
-                <CardDescription className="text-sm h-14">{plan.idealFor}</CardDescription>
+                <CardDescription className="text-sm h-24">{plan.idealFor}</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow flex flex-col">
                 <div className="text-center mb-6">
