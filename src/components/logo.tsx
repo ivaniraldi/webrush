@@ -22,9 +22,9 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
         fontFamily="'Poppins', sans-serif"
         fontSize="24"
         fontWeight="700"
-        fill="url(#logo-gradient)"
       >
-        WebRush
+        <tspan fill="white">Web</tspan>
+        <tspan fill="url(#logo-gradient)">Rush</tspan>
       </text>
     </svg>
   );
