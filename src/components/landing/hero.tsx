@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -6,6 +8,10 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 export default function Hero() {
   const laptopImage = PlaceHolderImages.find(p => p.id === "hero-laptop");
   const phoneImage = PlaceHolderImages.find(p => p.id === "hero-phone");
+
+  const whatsappNumber = "5548992084572";
+  const message = encodeURIComponent("Olá! Tenho interesse nos serviços da WebRush e gostaria de mais informações.");
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
     <section className="relative overflow-hidden py-24 md:py-32">
@@ -17,7 +23,7 @@ export default function Hero() {
           Crie seu site com domínio incluso a partir de R$69. Rápido, seguro e com a agilidade que seu negócio precisa para o mercado global.
         </p>
         <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg">
-          <Link href="#planos">Comece com R$69</Link>
+          <Link href={whatsappUrl} target="_blank">Comece com R$69</Link>
         </Button>
       </div>
 
