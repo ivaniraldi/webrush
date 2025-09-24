@@ -18,9 +18,9 @@ export default function Header() {
 
   return (
     <header id="inicio" className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
+      <div className="container mx-auto flex h-20 max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className="h-8 w-auto" />
+          <Logo className="h-12 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -48,7 +48,7 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between pb-4 border-b">
                    <Link href="/" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                    <Logo className="h-8 w-auto" />
+                    <Logo className="h-10 w-auto" />
                   </Link>
                   <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
                       <X className="h-6 w-6" />
