@@ -14,7 +14,7 @@ export default function Hero() {
           Seu site profissional no ar em tempo recorde.
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-          Crie seu site com domínio incluso a partir de R$49. Rápido, seguro e com a agilidade que seu negócio no Brasil precisa.
+          Crie seu site com domínio incluso a partir de R$49. Rápido, seguro e com a agilidade que seu negócio precisa para o mercado global.
         </p>
         <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg">
           <Link href="#planos">Comece com R$49</Link>
